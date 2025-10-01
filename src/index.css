@@ -113,6 +113,10 @@ All colors MUST be HSL.
     @apply bg-background text-foreground;
   }
   
+  html {
+    scroll-behavior: smooth;
+  }
+  
   /* Hide scrollbar for Chrome, Safari and Opera */
   .scrollbar-hide::-webkit-scrollbar {
     display: none;

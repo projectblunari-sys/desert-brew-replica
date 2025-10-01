@@ -1,15 +1,15 @@
 const About = () => {
   return (
-    <section id="about" className="py-32 px-4 sm:px-6 lg:px-8 bg-muted/20">
-      <div className="container mx-auto max-w-5xl">
-        <div className="text-center animate-fade-in">
+    <section id="about" className="py-40 md:py-48 px-4 sm:px-6 lg:px-8 bg-background">
+      <div className="container mx-auto max-w-6xl">
+        <div className="text-center">
           {/* Section Title */}
-          <h2 className="text-4xl md:text-6xl font-light text-foreground mb-16 lowercase">
+          <h2 className="text-5xl md:text-7xl font-light text-foreground mb-20 lowercase tracking-wide">
             thedunevibes
           </h2>
 
           {/* Description */}
-          <p className="text-foreground text-base md:text-lg leading-relaxed max-w-4xl mx-auto">
+          <p className="text-foreground text-lg md:text-2xl leading-[1.9] font-light max-w-5xl mx-auto">
             At Dune, we're not just about coffee; we're about creating a peaceful atmosphere
             and making your senses happy. While you enjoy your carefully made specialty
             coffee, let the cozy feeling of our café relax you. Whether you want some alone

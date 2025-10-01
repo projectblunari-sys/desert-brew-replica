@@ -13,39 +13,43 @@ const Gallery = () => {
     interior2,
     interior3,
     interior4,
+    interior1,
+    interior2,
   ];
 
   return (
-    <section id="gallery" className="py-32 px-4 sm:px-6 lg:px-8 bg-background">
-      <div className="container mx-auto max-w-7xl">
+    <section id="gallery" className="py-40 md:py-48 bg-background">
+      <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Section Title */}
-        <div className="text-center mb-20 animate-fade-in">
-          <h2 className="text-4xl md:text-6xl font-light text-foreground lowercase">
+        <div className="text-center mb-24">
+          <h2 className="text-5xl md:text-7xl font-light text-foreground lowercase tracking-wide">
             theduneviews
           </h2>
         </div>
+      </div>
 
-        {/* Horizontal Scrolling Gallery */}
-        <div className="overflow-hidden mb-20">
-          <div className="flex gap-6 animate-fade-in-slow pb-6 overflow-x-auto scrollbar-hide">
-            {images.map((image, index) => (
-              <div
-                key={index}
-                className="flex-shrink-0 w-[300px] md:w-[400px] h-[400px] md:h-[500px] rounded-lg overflow-hidden group"
-              >
-                <img
-                  src={image}
-                  alt={`Dune interior ${index + 1}`}
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                />
-              </div>
-            ))}
-          </div>
+      {/* Horizontal Scrolling Gallery - Full Width */}
+      <div className="overflow-hidden mb-24">
+        <div className="flex gap-8 pb-8 overflow-x-auto scrollbar-hide px-4 sm:px-6 lg:px-8">
+          {images.map((image, index) => (
+            <div
+              key={index}
+              className="flex-shrink-0 w-[350px] md:w-[450px] h-[450px] md:h-[550px] overflow-hidden group"
+            >
+              <img
+                src={image}
+                alt={`Dune interior ${index + 1}`}
+                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+              />
+            </div>
+          ))}
         </div>
+      </div>
 
-        {/* Description */}
-        <div className="text-center max-w-4xl mx-auto animate-fade-in">
-          <p className="text-foreground text-base md:text-lg leading-relaxed">
+      {/* Description */}
+      <div className="container mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+        <div className="text-center">
+          <p className="text-foreground text-lg md:text-2xl leading-[1.9] font-light max-w-5xl mx-auto">
             Explore Dune through our captivating picture collection, displaying beautiful
             furniture and stunning interiors. Each image invites you to capture moments of
             luxury and share them. From stylish designs to cozy lighting, our gallery offers
