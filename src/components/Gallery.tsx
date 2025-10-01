@@ -5,55 +5,46 @@ import interior4 from "@/assets/cafe-interior-4.jpg";
 
 const Gallery = () => {
   const images = [
-    interior1,
-    interior2,
-    interior3,
-    interior4,
-    interior1,
-    interior2,
-    interior3,
-    interior4,
-    interior1,
-    interior2,
+    interior1, interior2, interior3, interior4,
+    interior1, interior2, interior3, interior4,
+    interior1, interior2, interior3, interior4,
+    interior1, interior2,
   ];
 
   return (
-    <section id="gallery" className="py-40 md:py-48 bg-background">
-      <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <section id="gallery" className="py-24 md:py-32 bg-background">
+      <div className="container mx-auto max-w-[1400px] px-6 sm:px-8 lg:px-12">
         {/* Section Title */}
-        <div className="text-center mb-24">
-          <h2 className="text-5xl md:text-7xl font-light text-foreground lowercase tracking-wide">
+        <div className="text-center mb-16 md:mb-20">
+          <h2 className="text-4xl md:text-6xl lg:text-7xl font-normal text-foreground lowercase tracking-normal">
             theduneviews
           </h2>
         </div>
       </div>
 
-      {/* Horizontal Scrolling Gallery - Full Width */}
-      <div className="overflow-hidden mb-24">
-        <div className="flex gap-8 pb-8 overflow-x-auto scrollbar-hide px-4 sm:px-6 lg:px-8">
+      {/* Horizontal Scrolling Gallery - Full Bleed */}
+      <div className="overflow-hidden mb-16 md:mb-20">
+        <div className="flex gap-4 md:gap-6 pb-4 overflow-x-auto scrollbar-hide px-6 sm:px-8 lg:px-12">
           {images.map((image, index) => (
             <div
               key={index}
-              className="flex-shrink-0 w-[350px] md:w-[450px] h-[450px] md:h-[550px] overflow-hidden group"
+              className="flex-shrink-0 w-[280px] sm:w-[350px] md:w-[420px] h-[380px] sm:h-[480px] md:h-[560px] overflow-hidden"
             >
               <img
                 src={image}
-                alt={`Dune interior ${index + 1}`}
-                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                alt={`Dune Coffee House interior view ${index + 1}`}
+                className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
               />
             </div>
           ))}
         </div>
       </div>
 
-      {/* Description */}
-      <div className="container mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+      {/* Description - No Spaces */}
+      <div className="container mx-auto max-w-[1200px] px-6 sm:px-8 lg:px-12">
         <div className="text-center">
-          <p className="text-foreground text-lg md:text-2xl leading-[1.9] font-light max-w-5xl mx-auto">
-            Explore Dune through our captivating picture collection, displaying beautiful
-            furniture and stunning interiors. Each image invites you to capture moments of
-            luxury and share them. From stylish designs to cozy lighting, our gallery offers
-            a glimpse into the amazing experience awaiting you at Dune.
+          <p className="text-foreground text-[15px] md:text-[17px] leading-[1.6] font-normal tracking-tight">
+            ExploreDunethroughourcaptivatingpicturecollection,displayingbeautifulfurnitureandstunninginteriors.Eachimageinvitesyoutocapturemomentsofluxuryandsharethem.Fromstylishdesignstocozylighting,ourgalleryoffersaglimpseintotheamazingexperienceawaitingyouatDune.
           </p>
         </div>
       </div>
