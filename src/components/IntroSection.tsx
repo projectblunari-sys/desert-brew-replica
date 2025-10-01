@@ -16,10 +16,10 @@ const IntroSection = () => {
             </div>
           </div>
 
-          {/* Text - No Spaces Version */}
+          {/* Text */}
           <div className="order-1 lg:order-2">
             <p className="text-foreground text-[15px] md:text-[17px] leading-[1.6] font-normal tracking-tight">
-              StepintoDuneCoffeeandenjoyaluxuriousoasis.Ourcaféisinspiredbydesertsanddunes,withelegantdesigncapturingsophisticationinthesand.Everydetail,fromfurnituretodécor,iscarefullycraftedforamemorableexperience,perfectforsharingonsocialmedia.
+              Step into Dune Coffee and enjoy a luxurious oasis. Our café is inspired by deserts and dunes, with elegant design capturing sophistication in the sand. Every detail, from furniture to décor, is carefully crafted for a memorable experience, perfect for sharing on social media.
             </p>
           </div>
         </div>

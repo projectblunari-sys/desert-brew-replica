@@ -40,11 +40,11 @@ const Gallery = () => {
         </div>
       </div>
 
-      {/* Description - No Spaces */}
+      {/* Description */}
       <div className="container mx-auto max-w-[1200px] px-6 sm:px-8 lg:px-12">
         <div className="text-center">
           <p className="text-foreground text-[15px] md:text-[17px] leading-[1.6] font-normal tracking-tight">
-            ExploreDunethroughourcaptivatingpicturecollection,displayingbeautifulfurnitureandstunninginteriors.Eachimageinvitesyoutocapturemomentsofluxuryandsharethem.Fromstylishdesignstocozylighting,ourgalleryoffersaglimpseintotheamazingexperienceawaitingyouatDune.
+            Explore Dune through our captivating picture collection, displaying beautiful furniture and stunning interiors. Each image invites you to capture moments of luxury and share them. From stylish designs to cozy lighting, our gallery offers a glimpse into the amazing experience awaiting you at Dune.
           </p>
         </div>
       </div>

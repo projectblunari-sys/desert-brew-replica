@@ -8,9 +8,9 @@ const About = () => {
             thedunevibes
           </h2>
 
-          {/* Description - No Spaces */}
+          {/* Description */}
           <p className="text-foreground text-[15px] md:text-[17px] leading-[1.6] font-normal tracking-tight">
-            AtDune,we'renotjustaboutcoffee;we'reaboutcreatingapeacefulatmosphereandmakingyoursenseshappy.Whileyouenjoyyourcarefullymadespecialtycoffee,letthecozyfeelingofourcaférelaxyou.Whetheryouwantsomealonetimeortochatwithfriends,ourcaféistheidealplaceforanymoodorsituation.Takeinthesmelloffreshlygroundcoffeebeansandlistentocalmingdesertmusicasyousipyourdrinkandfeelreallyhappy.
+            At Dune, we're not just about coffee; we're about creating a peaceful atmosphere and making your senses happy. While you enjoy your carefully made specialty coffee, let the cozy feeling of our café relax you. Whether you want some alone time or to chat with friends, our café is the ideal place for any mood or situation. Take in the smell of freshly ground coffee beans and listen to calming desert music as you sip your drink and feel really happy.
           </p>
         </div>
       </div>
